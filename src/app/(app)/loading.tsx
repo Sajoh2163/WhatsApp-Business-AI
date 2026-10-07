@@ -1,0 +1,1 @@
+export default function Loading() { return <div aria-busy="true" aria-label="Chargement" className="grid gap-3"><div className="sk h-8 w-48" /><div className="grid grid-cols-2 gap-3 md:grid-cols-5">{[0,1,2,3,4].map((i) => <div key={i} className="sk h-20" />)}</div><div className="sk h-56" /></div>; }

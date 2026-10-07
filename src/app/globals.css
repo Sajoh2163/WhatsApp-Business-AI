@@ -1,0 +1,8 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+:root{--bg:#F6F7F8;--card:#fff;--ink:#16181C;--mut:#6A7078;--line:#E6E8EB;--acc:#0B7A63}
+:root[data-theme=dark]{--bg:#0E1213;--card:#161B1D;--ink:#E9EEEC;--mut:#8D9A98;--line:#252C2E;--acc:#3DCBA6}
+body{background:var(--bg);color:var(--ink)}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.tint{background:color-mix(in srgb,var(--acc) 14%,transparent)}
+@keyframes sk{50%{opacity:.5}}.sk{background:var(--line);border-radius:8px;animation:sk 1.4s ease infinite}
+:focus-visible{outline:2px solid var(--acc);outline-offset:2px}

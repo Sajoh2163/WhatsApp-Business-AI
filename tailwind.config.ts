@@ -1,0 +1,1 @@
+export default { content: ["./src/**/*.{ts,tsx}"], theme: { extend: { colors: { bg: "var(--bg)", card: "var(--card)", ink: "var(--ink)", mut: "var(--mut)", line: "var(--line)", acc: "var(--acc)" } } } };
